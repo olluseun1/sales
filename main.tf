@@ -1,13 +1,10 @@
 module "provision_ec2_1" {
   source = "git::https://github.com/olluseun1/module.git"
-  
- 
 }
 
 module "provision_ec2_2" {
   source = "git::https://github.com/olluseun1/module.git"
   machine_name = "second machine"
-  machine_key = "newkey"
 }
 
 terraform {
