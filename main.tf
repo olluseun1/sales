@@ -1,6 +1,6 @@
 module "provision_ec2_1" {
   source = "git::https://github.com/olluseun1/module.git"
-  machine_name = "first machine"
+  
  
 }
 
