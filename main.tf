@@ -1,5 +1,5 @@
 module "provision_ec2" {
-    source = "git::https://github.com/olluseun1/module.git"
+  source = "git::https://github.com/olluseun1/module.git"
 }
 
 terraform {
@@ -13,5 +13,5 @@ terraform {
 
 provider "aws" {
   #profile = "default" # AWS Credentials Profile configured on your local desktop terminal  $HOME/.aws/credentials
-  region  = "eu-west-1"
+  region = "eu-west-1"
 }
