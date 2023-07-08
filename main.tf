@@ -24,7 +24,7 @@ provider "aws" {
   region = "eu-west-1"
 }
 
-sales_1_machine_name {}
-sales_1_key_name {}
-sales_2_machine_name {}
-sales_2_key_name {}
+variable sales_1_machine_name {}
+variable sales_1_key_name {}
+variable sales_2_machine_name {}
+variable sales_2_key_name {}
