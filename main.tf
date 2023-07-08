@@ -6,6 +6,7 @@ module "provision_ec2_1" {
 module "provision_ec2_2" {
   source = "git::https://github.com/olluseun1/module.git"
   machine_name = "second machine"
+  key_name = "newkey"
 }
 
 terraform {
